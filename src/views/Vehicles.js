@@ -1,5 +1,6 @@
 import React from 'react';
 import { Context } from '../store/appContext';
+import { Link } from 'react-router-dom';
 
 const Vehicles = () =>{
     return(
@@ -20,7 +21,7 @@ const Vehicles = () =>{
                                                         <div className="card-body">
                                                             <h5 className="card-title">{item.name}</h5>
                                                             <p className="card-text">{item.gender}</p>
-                                                            <a href="#" className="btn btn-primary">More!</a>
+                                                            <Link onClick={()=> context.actions.getKeyVehicles(i)} to="/CardVehicles" className="btn btn-primary">More!</Link>
                                                         </div>
                                                     </div>
                                                 </div>

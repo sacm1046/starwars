@@ -12,6 +12,8 @@ export class ContextWrapper extends React.Component {
                 planets: {},
                 vehicles: {},
                 peopleKey: "",
+                planetsKey: "",
+                vehiclesKey: "",
               
             },
             actions: {
@@ -61,9 +63,22 @@ export class ContextWrapper extends React.Component {
                             { peopleKey: a } 
                         ) 
                     })
-                    console.log(this.state.store.peopleKey);
-                    console.log(this.state.store.people.results[this.state.store.peopleKey].name);
-                    console.log(this.state.store.people.results);
+                },
+                getKeyPlanets: a => {
+                    this.setState({
+                        store: Object.assign(
+                            this.state.store,
+                            { planetsKey: a } 
+                        ) 
+                    })
+                },
+                getKeyVehicles: a => {
+                    this.setState({
+                        store: Object.assign(
+                            this.state.store,
+                            { vehiclesKey: a } 
+                        ) 
+                    })
                 }
             }
         };
