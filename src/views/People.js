@@ -22,7 +22,7 @@ const People = () => {
                                                         <div className="card-body">
                                                             <h5 className="card-title">{item.name}</h5>
                                                             <p className="card-text">{item.gender}</p>
-                                                            <Link onClick={()=> context.actions.getKeyPeople(i)} to="/CardPeople" className="btn btn-primary">More!</Link>
+                                                            <Link onClick={()=> context.actions.getKeyPeople(i)} to="/people/CardPeople" className="btn btn-primary">More!</Link>
                                                         </div>
                                                     </div>
                                                 </div>

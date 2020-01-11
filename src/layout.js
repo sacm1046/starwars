@@ -17,7 +17,7 @@ const Layout = () => {
         <Route exact path={"/"} component={People} />
         <Route exact path={"/Planets"} component={Planets} />
         <Route exact path={"/Vehicles"} component={Vehicles} />
-        <Route exact path={"/CardPeople"} component={CardPeople} />
+        <Route exact path={"/people/CardPeople"} component={CardPeople} />
         <Route exact path={"/CardPlanets"} component={CardPlanets} />
         <Route exact path={"/CardVehicles"} component={CardVehicles} />
         <Route component={NotFound} />
