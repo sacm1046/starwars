@@ -13,8 +13,8 @@ const CardPeople = () => {
                                 return (
                                     <div className="container">
                                         <div className="row">
-                                            <div className=""></div>
-                                            <div key={i} className="col-md-12 pt-4 pb-4">
+                                            <div className="col-md-3"></div>
+                                            <div key={i} className="col-md-6 pt-4 pb-4">
                                                 <div className="card">
                                                     <img src="https://media.metrolatam.com/2019/10/23/starwarsriseskyw-6881dd557a9e5fa0ff9f36e4189bdafd-600x400.jpg" className="card-img-top" />
                                                     <div className="card-body">

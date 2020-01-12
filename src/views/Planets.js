@@ -17,7 +17,7 @@ const Planets= () =>{
                                                     <div key={i} className="col-md-2 pb-1 pt-1">
 
                                                     <div className="card">
-                                                        <img src="https://media.metrolatam.com/2019/10/23/starwarsriseskyw-6881dd557a9e5fa0ff9f36e4189bdafd-600x400.jpg" className="card-img-top" />
+                                                        <img src="https://static.nationalgeographic.es/files/styles/image_1900/public/01-massive-planet-NGTS-1b.jpg" className="card-img-top" />
                                                         <div className="card-body">
                                                             <h5 className="card-title">{item.name}</h5>
                                                             <p className="card-text">{item.gender}</p>
@@ -30,7 +30,7 @@ const Planets= () =>{
                                         }
                             </div>
 
-                            <div className="row">
+                            <div className="row border-dark pt-4 pb-4">
                                 <div className="col-md-12 d-flex justify-content-between">
                                     <button className="btn btn-info"
                                         onClick={() => context.actions.getPlanets(context.store.planets.previous)}

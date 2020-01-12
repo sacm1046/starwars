@@ -31,7 +31,7 @@ const People = () => {
                                     }               
                             </div>
 
-                            <div className="row">
+                            <div className="row  border-top border-dark pt-4 pb-4">
                                 <div className="col-md-12 d-flex justify-content-between">
                                     <button className="btn btn-info"
                                         onClick={() => context.actions.getPeople(context.store.people.previous)}

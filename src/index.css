@@ -1,3 +1,13 @@
-.navbar{
+#navbar{
   background: black;
+}
+#logo{
+  background-image: url("https://revistaaxxis.com.co/wp-content/uploads/2018/04/asif-khan-axxis-arquitectura-3.jpg");
+}
+body{
+  background-color: black;
+}
+.card{
+  color: white;
+  background-color: rgb(31, 30, 30);
 }
